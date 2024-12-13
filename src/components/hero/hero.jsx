@@ -9,17 +9,32 @@ const Hero = () => {
         <p
           className="text-transparent bg-clip-text bg-gradient-to-b xs:bg-gradient-to-r from-white via-white to-transparent"
         >
+          {/* <span>c</span>
+          <span>o</span>
+          <span>d</span>
+          <span>e</span> */}
           code
         </p>
-        <p>X</p>
+        <p
+          className="text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-transparent"
+        >
+          X
+        </p>
         <p
           className="text-transparent bg-clip-text bg-gradient-to-b xs:bg-gradient-to-l from-white via-white to-transparent"
         >
+          {/* <span>c</span>
+          <span>a</span>
+          <span>l</span>
+          <span>i</span>
+          <span>b</span>
+          <span>e</span>
+          <span>r</span> */}
           caliber
         </p>
       </div>
       <img
-        className="h-[40rem] xs:h-[20rem] sm:h-[30rem] md:h[35rem] lg:h-[40rem] xl:h-[60rem] animate-levitate absolute mx-auto left-0 right-0 top-52 xs:top-52 sm:top-48 lg:top-32 xl:top-28 -z-10"
+        className="h-[40rem] xs:h-[20rem] sm:h-[30rem] md:h[35rem] lg:h-[40rem] xl:h-[60rem] animate-levitate absolute mx-auto left-0 right-0 top-52 xs:top-80 sm:top-52 lg:top-40 xl:top-28 -z-10"
         src="/images/hero-phone.png"
         alt="phone"
       />

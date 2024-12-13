@@ -7,8 +7,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        "xs":"480px",
-        // "3xl": ""
+        "xs": "480px",
       },
       boxShadow: {
         'inner-shadow': 'inset 0 -10px 100px 100px #000',
@@ -16,12 +15,17 @@ export default {
       },
       animation: {
         levitate: 'levitate 4s infinite ease-in-out',
+        reveal: 'reveal 5s ease-in-out'
       },
       keyframes: {
         levitate: {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-20px)' },
         },
+        reveal : {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' }
+        }
       },
     },
   },

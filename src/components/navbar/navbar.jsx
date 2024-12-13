@@ -25,13 +25,21 @@ const Navbar = () => {
       animate={{
         width: "auto",
         transition: {
-          duration: 2
+          duration: 0.3
         }
       }}
-    // transition={{ duration: 1 }}
     >
-      <div
+      <motion.div
         className="h-[50px] w-[30rem] rounded-[50px] flex items-center justify-between bg-[#1a1a1a] p-5"
+        initial={{
+          width: 0
+        }}
+        animate={{
+          width: "30rem",
+          transition: {
+            duration: 0.3
+          }
+        }}
       >
         <div
           className="bg-transparent flex items-center gap-10"
@@ -69,7 +77,7 @@ const Navbar = () => {
             FAQs
           </motion.a>
         </div>
-      </div>
+      </motion.div>
     </motion.div>
   );
 };
