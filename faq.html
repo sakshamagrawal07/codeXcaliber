@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ Section</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Main Container -->
+    <div class="faq-container">
+        <!-- Title and Subtitle -->
+        <header class="faq-header">
+            <h1>All that... and more.</h1>
+            <p>Here's the answer to every question you have in mind!</p>
+            <div class="faq-buttons">
+                <button class="tab-btn active" data-tab="organisation"
+                    onclick="showContent('organisation')">Organisation</button>
+                <button class="tab-btn" data-tab="participant" onclick="showContent('participant')">Participant</button>
+                <button class="tab-btn" data-tab="registration"
+                    onclick="showContent('registration')">Registration</button>
+                <button class="tab-btn" data-tab="rewards" onclick="showContent('rewards')">Rewards</button>
+            </div>
+        </header>
+
+        <!-- Content Section for Organisation tab -->
+        <section class="faq-content active" data-tab="organisation">
+            <div class="faq-list">
+                <ul>
+                    <li data-index="0">What is WoC?</li>
+                    <li data-index="1">What is the role of mentors in WOC? <span class="new">NEW</span></li>
+                    <li data-index="2">Can I participate in WOC as both a mentor and a WOC Contributor?<span
+                            class="new">NEW</span></li>
+                    <li data-index="3">Are there any social media platforms to follow for updates? <span
+                            class="new">NEW</span></li>
+                    <li data-index="4">How long does the event last?</li>
+                    <li data-index="5">What if I have more questions?</li>
+                </ul>
+            </div>
+            <!-- Right Preview Box -->
+            <div class="faq-preview">
+                <div class="preview-box" data-index="0">
+                    <p> Winter of Code (WoC) is an exciting month-long open-source program. It’s similar to Google
+                        Summer of Code (GSoC), but with a few fun twists of our own!</p>
+                    <!-- <img src="https://dummyimage.com/400x300/000/fff.png&text=Sample+Preview" alt="Preview Image"> -->
+                </div>
+                <div class="preview-box" data-index="1">
+                    <p> Mentors guide participants, review code, provide feedback, and help troubleshoot any issues
+                        during the event.</p>
+                </div>
+                <div class="preview-box" data-index="2">
+                    <p>No, you cannot participate as both a mentor and a contributor in WOC. Mentors are experienced
+                        members of open-source organizations who guide new contributors by reviewing code and providing
+                        support.</p>
+                </div>
+                <div class="preview-box" data-index="3">
+                    <p>Yes, follow our GDG team on LinkedIn, and Instagram for the latest announcements and updates.</p>
+                </div>
+                <div class="preview-box" data-index="4">
+                    <p>WOC lasts for almost 2 months, allowing participants enough time to contribute meaningfully to
+                        their chosen projects.</p>
+                </div>
+                <div class="preview-box" data-index="5">
+                    <p>If you have more questions, you can raise a ticket on our Discord server. Our support team and
+                        mentors will assist you.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Content Section for Participant tab -->
+        <section class="faq-content" data-tab="participant">
+            <div class="faq-list">
+                <ul>
+                    <li data-index="0">Who can participate?</li>
+                    <li data-index="1">Is WoC for beginners? <span class="new">NEW</span></li>
+                    <li data-index="2">How do I get selected?</li>
+                    <li data-index="3">What is a proposal? How do I send one? <span class="new">NEW</span></li>
+                    <li data-index="4">How long does the event last?</li>
+                    <li data-index="5">What if I have more questions?</li>
+                </ul>
+            </div>
+
+            <div class="faq-preview">
+                <div class="preview-box" data-index="0">
+                    <p> Absolutely anyone! Whether you're a student (grad, undergrad, or even in high school), a
+                        professional, or anyone else we might've missed, WoC is open to
+                        all.</p>
+                    <!-- <img src="https://dummyimage.com/400x300/000/fff.png&text=Sample+Preview" alt="Preview Image"> -->
+                </div>
+                <div class="preview-box" data-index="1">
+                    <p> Yes, WoC is for EVERYONE - beginners, pros, and everyone in between!</p>
+                </div>
+                <div class="preview-box" data-index="2">
+                    <p>Submit a stellar application! 😊 After an initial screening, shortlisted participants submit
+                        proposals via Devfolio. Mentors review the top submissions, and if you pass, awesome swag is
+                        yours!</p>
+                </div>
+                <div class="preview-box" data-index="3">
+                    <p>A proposal is where you outline your WoC project plan. Some organizations even allow you to
+                        propose your own ideas! Once selected, we’ll guide you through submission and host a session on
+                        writing a great proposal.</p>
+                </div>
+                <div class="preview-box" data-index="4">
+                    <p>WOC lasts for almost 2 months, allowing participants enough time to contribute meaningfully to
+                        their chosen projects.</p>
+                </div>
+                <div class="preview-box" data-index="5">
+                    <p>If you have more questions, you can raise a ticket on our Discord server. Our support team and
+                        mentors will assist you.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Content Section for Registration tab -->
+        <section class="faq-content" data-tab="registration">
+            <div class="faq-list">
+                <ul>
+                    <li data-index="0">How can I register for WOC?</li>
+                    <li data-index="1">Are there any prerequisites to join?<span class="new">NEW</span></li>
+                    <li data-index="2">Do participants need prior open-source experience?<span class="new">NEW</span>
+                    </li>
+                    <li data-index="3">Is there any fee to participate in WOC? </li>
+                    <li data-index="4">Can I participate in WOC if I’m already involved in other open-source
+                        programs?<span class="new">NEW</span>
+                    </li>
+                    <li data-index="5">How do I know if my application has been accepted?</li>
+                </ul>
+            </div>
+
+            <div class="faq-preview">
+                <div class="preview-box" data-index="0">
+                    <p> Registration details and deadlines are announced on our official channels as well as on our
+                        website. Follow our GDG social media handles and website for updates.</p>
+                    <!-- <img src="https://dummyimage.com/400x300/000/fff.png&text=Sample+Preview" alt="Preview Image"> -->
+                </div>
+                <div class="preview-box" data-index="1">
+                    <p> Basic coding skills and familiarity with Git and GitHub are recommended. Domain-specific
+                        knowledge will help, but it’s also a great opportunity to learn as you go.</p>
+                </div>
+                <div class="preview-box" data-index="2">
+                    <p>No prior experience is required, but having a basic understanding of open-source contributions
+                        and version control (Git) is helpful.</p>
+                </div>
+                <div class="preview-box" data-index="3">
+                    <p>No, participation in WOC is completely free of charge.</p>
+                </div>
+                <div class="preview-box" data-index="4">
+                    <p>Yes, you can participate in WOC alongside other open-source programs, as long as you manage your
+                        time effectively.</p>
+                </div>
+                <div class="preview-box" data-index="5">
+                    <p>Accepted participants will receive an email confirmation. Keep an eye on your inbox and check for
+                        updates on our official channels and website.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content Section for Rewards tab -->
+        <section class="faq-content" data-tab="rewards">
+            <div class="faq-list">
+                <ul>
+                    <li data-index="0">What rewards do winners receive?</li>
+                    <li data-index="1">Do winners receive a certificate?<span class="new">NEW</span></li>
+                    <li data-index="2">Can I list WOC participation on my resume?
+                    </li>
+                    <li data-index="3">How are winners selected?</li>
+                    <li data-index="4">Are there deadlines for submitting contributions?<span class="new">NEW</span>
+                    </li>
+                    <li data-index="5">Can I collaborate with other participants?</li>
+                </ul>
+            </div>
+
+            <div class="faq-preview">
+                <div class="preview-box" data-index="0">
+                    <p>Winners receive swags, T-shirts, and certificates to acknowledge their outstanding contributions.
+                    </p>
+                    <!-- <img src="https://dummyimage.com/400x300/000/fff.png&text=Sample+Preview" alt="Preview Image"> -->
+                </div>
+                <div class="preview-box" data-index="1">
+                    <p>Yes, all participants receive a certificate of participation, and winners receive special
+                        certificates acknowledging their outstanding contributions.</p>
+                </div>
+                <div class="preview-box" data-index="2">
+                    <p>Definitely! Participating in WOC demonstrates your coding skills, commitment to open-source, and
+                        ability to work independently on real-world projects.</p>
+                </div>
+                <div class="preview-box" data-index="3">
+                    <p>Winners are selected based on the quality of their contributions, the impact of their work, and
+                        their adherence to the project guidelines.</p>
+                </div>
+                <div class="preview-box" data-index="4">
+                    <p>Yes, there are milestones and deadlines. Details will be provided in the project guidelines once
+                        you’re accepted.</p>
+                </div>
+                <div class="preview-box" data-index="5">
+                    <p>While contributions are individual, you can network and discuss ideas with other participants on
+                        official communication platforms.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>// Function to reset preview boxes within a specific section
+        function resetPreviewBoxes(section) {
+            const previewBoxes = section.querySelectorAll('.preview-box');
+            previewBoxes.forEach(box => {
+                box.style.display = 'none'; // Hide all preview boxes
+                box.classList.remove('active'); // Remove active class
+            });
+        }
+
+        // Function to activate a specific preview box
+        function activatePreviewBox(previewBox) {
+            if (previewBox) {
+                previewBox.style.display = 'flex'; // Show the preview box
+                previewBox.classList.add('active'); // Add active class
+            }
+        }
+
+        // Function to activate the first preview box in a section by default
+        function activateFirstPreviewBox(section) {
+            const firstPreviewBox = section.querySelector('.preview-box[data-index="0"]');
+            resetPreviewBoxes(section); // Hide all preview boxes first
+            activatePreviewBox(firstPreviewBox); // Activate the first preview box
+        }
+
+        // Function to show content when clicking a tab button
+        function showContent(tabName) {
+            // Hide all content sections
+            const contents = document.querySelectorAll('.faq-content');
+            contents.forEach(content => content.classList.remove('active'));
+
+            // Deactivate all buttons
+            const buttons = document.querySelectorAll('.tab-btn');
+            buttons.forEach(button => button.classList.remove('active'));
+
+            // Show selected tab and activate button
+            const selectedContent = document.querySelector(`.faq-content[data-tab="${tabName}"]`);
+            const selectedButton = document.querySelector(`.tab-btn[data-tab="${tabName}"]`);
+
+            if (selectedContent && selectedButton) {
+                selectedContent.classList.add('active');
+                selectedButton.classList.add('active');
+
+                // Activate the first preview box for this section
+                activateFirstPreviewBox(selectedContent);
+            }
+        }
+
+        // Function to handle hover events for list items
+        function setupHoverEvents(section) {
+            const listItems = section.querySelectorAll('.faq-list li');
+
+            listItems.forEach(item => {
+                item.addEventListener('mouseenter', () => {
+                    const index = item.getAttribute('data-index');
+                    const previewBox = section.querySelector(`.preview-box[data-index="${index}"]`);
+
+                    // Reset all preview boxes within the current section
+                    resetPreviewBoxes(section);
+
+                    // Show the matching preview box
+                    activatePreviewBox(previewBox);
+                });
+
+                // Optional: Keep the first preview box when the mouse leaves the list
+                item.addEventListener('mouseleave', () => {
+                    if (!section.querySelector('.preview-box.active')) {
+                        activateFirstPreviewBox(section);
+                    }
+                });
+            });
+        }
+
+        // Initialize default content and hover behavior
+        document.addEventListener('DOMContentLoaded', () => {
+            const contents = document.querySelectorAll('.faq-content');
+
+            contents.forEach(content => {
+                // Set up default preview box and hover events for each content section
+                activateFirstPreviewBox(content);
+                setupHoverEvents(content);
+            });
+
+            // Trigger a click event on the "Organization" button to make it clicked by default
+            const defaultButton = document.querySelector('.tab-btn[data-tab="organization"]');
+            if (defaultButton) {
+                defaultButton.click();
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>
