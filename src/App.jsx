@@ -1,5 +1,6 @@
 
 import './App.css'
+import FAQSection from './components/FAQ/FAQ';
 import Timeline from './components/Timeline/Timeline'
 import Hero from "./components/hero/hero";
 import Navbar from "./components/navbar/navbar";
@@ -13,6 +14,7 @@ export default function App() {
       <Hero/>
       <RegisterButton/>
       <Timeline/>
+      <FAQSection />
     </>
   );
 }
