@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const RegisterButton = () => {
     return (
         <motion.div
-            className="fixed bottom-5 left-0 right-0 mx-auto flex justify-center"
+            className="absolute bottom-16 left-0 right-0 mx-auto flex justify-center"
             initial={{
                 opacity: 0,
                 y: 20

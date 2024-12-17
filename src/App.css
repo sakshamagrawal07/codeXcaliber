@@ -8,3 +8,12 @@
   padding: 2rem;
   text-align: center;
 }
+
+@font-face {
+  font-family: 'Vipnagorgialla';
+  src: url("../public/fonts/Vipnagorgialla.otf") format('otf');
+}
+
+.title-font {
+  font-family: 'Vipnagorgialla';
+}
