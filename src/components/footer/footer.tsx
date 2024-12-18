@@ -7,10 +7,10 @@ const Footer = () => {
     return (
         <>
             <div
-                className="h-[1px] w-full bg-gradient-to-r from-black via-white to-black"
+                className="h-[1px] w-[100vw] bg-gradient-to-r from-black via-white to-black"
             />
             <div
-                className="w-full h-72 flex items-center justify-between px-2 sm:px-5 md:px-10 lg:px-16 mb-0 bg-[#060606]"
+                className="w-full h-72 flex items-center justify-between px-2 sm:px-5 md:px-10 lg:px-16 mb-0 bg-[#060606] iceland-font"
             >
                 <div
                     className=""
@@ -23,8 +23,18 @@ const Footer = () => {
                     <div
                         className="w-full mt-5 flex justify-center text-sm sm:text-2xl md:text-5xl"
                     >
-                        <RiInstagramFill className="mr-3"/>
-                        <TiSocialLinkedin />
+                        <a
+                            href="https://www.instagram.com/gdg_iiitn/"
+                            target="_blank"
+                        >
+                            <RiInstagramFill className="mr-3" />
+                        </a>
+                        <a
+                            href="https://www.linkedin.com/company/gdsc-iiitn/posts/?feedView=all"
+                            target="_blank"
+                        >
+                            <TiSocialLinkedin />
+                        </a>
                     </div>
                 </div>
                 <div
@@ -52,12 +62,13 @@ const Footer = () => {
                     </p>
                 </div>
                 <div>
-                    <div
+                    <a
                         className="w-20 md:w-40 lg:w-56 text-lg sm:text-2xl lg:text-4xl xl:text-5xl flex flex-wrap text-start hover:underline decoration-2 cursor-pointer"
+                        href="https://mail.google.com/mail/?view=cm&fs=1&to=gdg@iiitn.ac.in"
+                        target="_blank"
                     >
-                        <p>Email Us For More Details</p>
-                        <a><HiOutlineArrowRight /></a>
-                    </div>
+                        Email Us For More Details<HiOutlineArrowRight />
+                    </a>
                 </div>
             </div>
         </>
