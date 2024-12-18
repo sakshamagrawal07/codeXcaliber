@@ -162,19 +162,19 @@ function TimelineItem({ event, isLeft, index }) {
       }
     
       <div className={`relative ${'xl:pt-8'}`}>
-        <div className={`${width>1024? isLeft? "-mx-[60%]" : "mx-[60%]" : "mx-auto"} relative xl:w-[521px] xl:h-[291px] w-[401px] h-[224px]`}>
+        <div className={`${width>1024? isLeft? "-mx-[60%]" : "mx-[60%]" : "mx-auto"} relative xl:w-[521px] xl:h-[291px] xs:w-[401px] xs:h-[224px] w-[320px] h-[179px]`}>
           <img src={borders[index%4]} className="absolute top-0 left-0 w-full h-full object-cover" alt="" />
-          <div className="absolute top-5 right-10 font-extrabold">{event.date}</div>
-          <div className="pt-14">
-            <div className="xl:text-3xl md:text-xl text-lg flex gap-3 justify-center items-center iceland-font"
+          <div className="absolute top-5 right-10 font-extrabold md:text-base sm:text-sm text-xs">{event.date}</div>
+          <div className="sm:pt-14 pt-10">
+            <div className="xl:text-3xl md:text-xl xs:text-lg text-sm flex gap-3 justify-center items-center iceland-font"
             >
               {event.title}
-              <div className="xl:text-2xl md:text-lg text-base border xl:p-1 md:p-0.5 p-0.5 aspect-square xl:w-10 md:w-8 w-6">
+              <div className="xl:text-2xl md:text-lg xs:text-sm border xl:p-1 md:p-0.5 sm:p-0.5 px-[2px] aspect-square xl:w-10 md:w-8 sm:w-6 w-5">
                 {event.id}
               </div>
             </div>
               
-            <div className="mt-3 px-7 xl:text-base md:text-xs text-xs">{event.description}</div>
+            <div className="mt-3 px-7 xl:text-base md:text-xs xs:text-xs text-2xs">{event.description}</div>
           </div>
         </div>
       </div>
