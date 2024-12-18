@@ -6,20 +6,20 @@ const Hero = () => {
       className="max-w-screen h-screen flex-col xs:flex items-center justify-center overflow-y-hidden relative"
     >
       <div
-        className="w-full xs:w-[470px] sm:w-[550px] md:w-[700px] lg:w-[800px] xl:w-[1100px] mt-20 xs:mt-0 xs:ml-[40px] md:ml-[65px] flex justify-center xs:justify-between text-6xl md:text-8xl lg:text-8xl xl:text-9xl -z-10"
+        className="w-full xs:w-[470px] sm:w-[550px] md:w-[700px] lg:w-[800px] xl:w-[1100px] mt-20 xs:mt-0 xs:ml-[40px] md:ml-[65px] flex justify-center xs:justify-between text-6xl md:text-8xl lg:text-8xl xl:text-9xl -z-10 title-font"
       >
         <p
-          className="text-transparent bg-clip-text bg-gradient-to-b xs:bg-gradient-to-r from-white via-white to-transparent title-font"
+          className="text-transparent bg-clip-text bg-gradient-to-b xs:bg-gradient-to-r from-white via-white to-transparent"
         >
           code
         </p>
         <p
-          className="text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-transparent title-font"
+          className="text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-transparent"
         >
           X
         </p>
         <p
-          className="text-transparent bg-clip-text bg-gradient-to-b xs:bg-gradient-to-l from-white via-white to-transparent title-font"
+          className="text-transparent bg-clip-text bg-gradient-to-b xs:bg-gradient-to-l from-white via-white to-transparent"
         >
           caliber
         </p>
