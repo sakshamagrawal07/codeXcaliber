@@ -78,7 +78,7 @@ const FAQSection = () => {
                 className={activeIndex === index ? 'active' : ''}
                 onClick={() => handlePreviewChange(index)}
               >
-                {console.log(item,index)}
+              
                 {item}
                 
               </li>

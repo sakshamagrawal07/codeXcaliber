@@ -1,5 +1,5 @@
 import './App.css'
-import FAQSection from './components/FAQ/FAQ';
+import FAQSection from './components/FAQ/FAQ2';
 import Timeline from './components/Timeline/Timeline'
 import Footer from './components/footer/footer';
 import Hero from "./components/hero/hero";
@@ -18,7 +18,7 @@ export default function App() {
       <Hero/>
       <Timeline/>
 
-      <div className='p-4'>
+      <div className='p-12'>
         <Carousel/>
       </div>
     
@@ -26,7 +26,7 @@ export default function App() {
       <Projects/>
       <FAQSection/>
       <Footer/>
-    </>
+    </div>
 
   );
 }
