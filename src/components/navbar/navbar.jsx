@@ -59,6 +59,11 @@ const Navbar = () => {
             Projects
           </motion.a>
         </div>
+        <img
+          className="h-10 aspect-square"
+          src="/images/x.png"
+          alt="x"
+        />
         <div
           className="bg-transparent flex items-center gap-10"
         >
