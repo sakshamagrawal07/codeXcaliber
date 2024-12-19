@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <motion.div
-      className="hidden z-10 fixed top-5 left-0 right-0 mx-auto xs:flex justify-center text-xl iceland-font"
+      className="z-10 fixed top-5 left-0 right-0 mx-auto flex justify-center text-sm xs:text-xl iceland-font"
       id="navbar"
       initial={{
         width: 0
