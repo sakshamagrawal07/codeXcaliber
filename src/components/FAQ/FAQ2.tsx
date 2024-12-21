@@ -4,20 +4,36 @@ import { faqData } from './faqData';
 import "./styles.css";
 
 export default function FAQSection() {
-  const [activeTab, setActiveTab] = useState('organisation')
-  const [activePreview, setActivePreview] = useState<string | null>(null)
+  const [activeTab, setActiveTab] = useState('organisation');
+  const [activePreview, setActivePreview] = useState<string | null>(null);
+  const [isMobileView, setIsMobileView] = useState(false);
+
+  // Update mobile view state based on window width
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobileView(window.innerWidth < 768);
+    };
+
+    // Initialize state and add resize listener
+    handleResize();
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   useEffect(() => {
-    setActivePreview('0')
-  }, [activeTab])
+    setActivePreview('0');
+  }, [activeTab]);
 
   const handleTabClick = (tabName: string) => {
-    setActiveTab(tabName)
-  }
+    setActiveTab(tabName);
+  };
 
   const handleQuestionHover = (index: string) => {
-    setActivePreview(index)
-  }
+    setActivePreview(index);
+  };
 
   return (
     <div className="faq-container">
@@ -43,9 +59,9 @@ export default function FAQSection() {
           content={content}
           activePreview={activePreview}
           onQuestionHover={handleQuestionHover}
+          isMobileView={isMobileView} // Pass the mobile view state
         />
       ))}
     </div>
-  )
+  );
 }
-

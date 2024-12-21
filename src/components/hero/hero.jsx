@@ -9,9 +9,9 @@ const Hero = () => {
         className="w-full xs:w-[450px] sm:w-[500px] md:w-[700px] lg:w-[750px] xl:w-[1000px] mt-24 xs:mt-0 xs:ml-[40px] md:ml-[65px] flex justify-center xs:justify-between text-4xl md:text-6xl lg:text-6xl xl:text-7xl -z-10 title-font uppercase"
       >
         <p
-          className="text-transparent bg-clip-text bg-gradient-to-b xs:bg-gradient-to-r from-white via-white to-transparent"
+          className="text-transparent bg-clip-text bg-gradient-to-b xs:bg-gradient-to-r from-white via-white to-black"
         >
-          code
+          CODE
         </p>
         <p
           className="text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-transparent"
@@ -19,9 +19,9 @@ const Hero = () => {
           X
         </p>
         <p
-          className="text-transparent bg-clip-text bg-gradient-to-b xs:bg-gradient-to-l from-white via-white to-transparent"
+          className="text-transparent bg-clip-text bg-gradient-to-b xs:bg-gradient-to-l from-white via-white to-black"
         >
-          caliber
+          CALIBER
         </p>
       </div>
       <img
