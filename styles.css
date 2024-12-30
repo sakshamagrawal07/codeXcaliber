@@ -227,7 +227,8 @@ body {
 }
 
 .new {
-    background-color: #F2AD12;
+    /* background-color: #F2AD12; */
+    background-color: #f15a26;
     color: #fff;
     padding: 0.2rem 0.5rem;
     font-size: 0.8rem;
