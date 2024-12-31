@@ -47,8 +47,10 @@ const Footer = () => {
                     </p>
                     <a
                         className="block text-sm sm:text-lg md:text-xl mt-5 mb-2 hover:underline cursor-pointer"
+                        target="_blank"
+                        href="/public/documents/event_brochure.pdf"
                     >
-                        Organisation Brochure
+                        Event Brochure
                     </a>
                     <a
                         className="text-sm sm:text-lg md:text-xl hover:underline cursor-pointer"
