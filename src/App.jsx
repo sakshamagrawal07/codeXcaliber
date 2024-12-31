@@ -6,6 +6,7 @@ import Hero from "./components/hero/hero";
 import Navbar from "./components/navbar/navbar";
 import Carousel from "./components/Carousel/Carousel";
 import Projects from './components/projects/projects';
+import AboutUs from './components/aboutus/aboutus';
 
 
 
@@ -14,6 +15,7 @@ export default function App() {
     <div className='w-screen'>
       <Navbar/>
       <Hero/>
+      <AboutUs/>
       <Timeline/>
 
       <div className='p-12'>
