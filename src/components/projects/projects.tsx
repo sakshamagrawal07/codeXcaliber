@@ -1,7 +1,27 @@
-import React from "react"
-import "./styles2.css"
+import React from "react";
+import "./styles2.css";
+import ProjectCard from "./ProjectCard";
+
+interface Project {
+    title: string;
+    author: string;
+    tags: string[];
+    gitLink: string;
+    description: string;
+}
 
 const Projects = () => {
+    const projects : Project[] = [
+        {
+            title: "TrendTrove-Ecommerce",
+            author: "Tejashri Taral",
+            tags:["PHP","JS"],
+            gitLink: "https://github.com/Tejashri-Taral/TrendTrove-Ecommerce",
+            description:
+                `A robust e-commerce platform developed using JavaScript, HTML, and CSS. It features a dynamic user interface, responsive design, and seamless user experience for online shopping.`,
+        },
+    ];
+
     return (
         <>
             <header className="faq-header">
@@ -9,8 +29,15 @@ const Projects = () => {
                 <p>Code X Caliber</p>
             </header>
             <div className="project-container">
+                {projects && projects.length > 0 ? (
+                    projects.map((proj, idx) => (
+                        <ProjectCard key={idx} idx={idx} project={proj} />
+                    ))
+                ) : (
+                    <span>Projects will be added soon</span>
+                )}
                 {/* <!-- Card 1 --> */}
-                <div className="project-card">
+                {/* <div className="project-card">
                     <h2>1. TrendTrove-Ecommerce</h2>
                     <p>By Tejashri Taral</p>
                     <div className="tags">
@@ -22,7 +49,27 @@ const Projects = () => {
                         <button className="details-btn">Project Details</button>
                     </a>
                 </div>
-
+                <div id="trendtrove-modal" className="modal">
+                    <div className="modal-content">
+                        <span className="close-btn" onClick={closeModal("trendtrove-modal")}>
+                            &times;
+                        </span>
+                        <h2>TrendTrove-Ecommerce</h2>
+                        <p>
+                            <strong>By:</strong> Tejashri Taral
+                        </p>
+                        <br />
+                        <p>
+                            <strong>Description:</strong> A robust e-commerce platform developed using JavaScript, HTML, and CSS. It features a dynamic user interface, responsive
+                            design, and seamless user experience for online shopping.
+                        </p>
+                        <br />
+                        <i className="fa fa-github text-[20px] bg-[#f15a26]"> </i>
+                        <a href="https://github.com/Tejashri-Taral/TrendTrove-Ecommerce" target="_blank" className="repo-link">
+                            Repository Link
+                        </a>
+                    </div>
+                </div> */}
                 {/* <!-- Card 2 --> */}
                 <div className="project-card">
                     <h2>2. Alimento</h2>
@@ -39,7 +86,6 @@ const Projects = () => {
                         <button className="details-btn">Project Details</button>
                     </a>
                 </div>
-
                 {/* <!-- Card 3 --> */}
                 <div className="project-card">
                     <h2>3. Event Mint</h2>
@@ -53,7 +99,6 @@ const Projects = () => {
                         <button className="details-btn">Project Details</button>
                     </a>
                 </div>
-
                 {/* <!-- Card 4 --> */}
                 <div className="project-card">
                     <h2>4. Online Book Sales</h2>
@@ -71,7 +116,6 @@ const Projects = () => {
                         <button className="details-btn">Project Details</button>
                     </a>
                 </div>
-
                 {/* <!-- Card 5 --> */}
                 <div className="project-card">
                     <h2>5. SCROLLME--ECOMMERCE-WEBSITE</h2>
@@ -88,7 +132,6 @@ const Projects = () => {
                         <button className="details-btn">Project Details</button>
                     </a>
                 </div>
-
                 {/* <!-- Card 6 --> */}
                 <div className="project-card">
                     <h2>6. AlgoGenesis: C Algorithms</h2>
@@ -105,7 +148,7 @@ const Projects = () => {
                 </div>
             </div>
         </>
-    )
-}
+    );
+};
 
-export default Projects
+export default Projects;
