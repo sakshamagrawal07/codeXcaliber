@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
     <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -23,9 +24,22 @@
                 <span>HTML</span>
                 <span>CSS</span>
             </div>
-            <a href="https://github.com/Tejashri-Taral/TrendTrove-Ecommerce" target="_blank">
-                <button class="details-btn">Project Details</button>
-            </a>
+            <button class="details-btn" onclick="openModal('trendtrove-modal')">Project Details</button>
+        </div>
+        <div id="trendtrove-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeModal('trendtrove-modal')">&times;</span>
+                <h2>TrendTrove-Ecommerce</h2>
+                <p><strong>By:</strong> Tejashri Taral</p>
+                <br>
+                <p><strong>Description:</strong> A robust e-commerce platform developed using JavaScript, HTML, and CSS.
+                    It features a dynamic user interface, responsive design, and seamless user experience for online
+                    shopping.</p>
+                <br>
+                <i class="fa fa-github" style="font-size:20px;     color: #f15a26"> </i>
+                <a href="https://github.com/Tejashri-Taral/TrendTrove-Ecommerce" target="_blank" class="repo-link">
+                    Repository Link</a>
+            </div>
         </div>
 
         <!-- Card 2 -->
@@ -40,9 +54,20 @@
                 <span>MySQL</span>
                 <span>Bootstrap</span>
             </div>
-            <a href="https://github.com/Vimall03/Alimento" target="_blank">
-                <button class="details-btn">Project Details</button>
-            </a>
+            <button class="details-btn" onclick="openModal('alimento-modal')">Project Details</button>
+        </div>
+        <div id="alimento-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeModal('alimento-modal')">&times;</span>
+                <h2>Alimento</h2>
+                <p><strong>By:</strong> Vimal</p><br>
+                <p><strong>Description:</strong> A comprehensive food delivery platform built using PHP, MySQL, HTML,
+                    CSS, and JavaScript.
+                    It includes Bootstrap for responsive design and delivers a seamless user experience.</p>
+                <br><i class="fa fa-github" style="font-size:20px; color: #f15a26"> </i>
+                <a href="https://github.com/Vimall03/Alimento" target="_blank" class="repo-link">
+                    Repository Link</a>
+            </div>
         </div>
 
         <!-- Card 3 -->
@@ -54,9 +79,19 @@
                 <span>React.JS</span>
                 <span>JavaScript</span>
             </div>
-            <a href="https://github.com/samyakmaitre/eventmint" target="_blank">
-                <button class="details-btn">Project Details</button>
-            </a>
+            <button class="details-btn" onclick="openModal('eventmint-modal')">Project Details</button>
+        </div>
+        <div id="eventmint-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeModal('eventmint-modal')">&times;</span>
+                <h2>Event Mint</h2>
+                <p><strong>By:</strong> Samyak Maitre</p><br>
+                <p><strong>Description:</strong> A React.js-based event management platform featuring advanced
+                    JavaScript and CSS for dynamic functionality and modern design.</p>
+                <br><i class="fa fa-github" style="font-size:20px; color: #f15a26"> </i>
+                <a href="https://github.com/samyakmaitre/eventmint" target="_blank" class="repo-link">
+                    Repository Link</a>
+            </div>
         </div>
 
         <!-- Card 4 -->
@@ -72,9 +107,19 @@
                 <span>ExpressJS</span>
                 <span>JavaScript</span>
             </div>
-            <a href="https://github.com/Trisha-tech/OnlineBookSales" target="_blank">
-                <button class="details-btn">Project Details</button>
-            </a>
+            <button class="details-btn" onclick="openModal('booksales-modal')">Project Details</button>
+        </div>
+        <div id="booksales-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeModal('booksales-modal')">&times;</span>
+                <h2>Online Book Sales</h2>
+                <p><strong>By:</strong> Trisha Sahu</p><br>
+                <p><strong>Description:</strong> An online bookstore application developed using MERN stack (MongoDB,
+                    ExpressJS, ReactJS, NodeJS) along with HTML, CSS, and JavaScript for enhanced user interaction.</p>
+                <br><i class="fa fa-github" style="font-size:20px; color: #f15a26"> </i>
+                <a href="https://github.com/Trisha-tech/OnlineBookSales" target="_blank" class="repo-link">
+                    Repository Link</a>
+            </div>
         </div>
 
         <!-- Card 5 -->
@@ -89,9 +134,20 @@
                 <span>ExpressJS</span>
                 <span>JavaScript</span>
             </div>
-            <a href="https://github.com/saurabhbakolia/SCROLLME--ECOMMERCE-WEBSITE" target="_blank">
-                <button class="details-btn">Project Details</button>
-            </a>
+            <button class="details-btn" onclick="openModal('scrollme-modal')">Project Details</button>
+        </div>
+        <div id="scrollme-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeModal('scrollme-modal')">&times;</span>
+                <h2>SCROLLME--ECOMMERCE-WEBSITE</h2>
+                <p><strong>By:</strong> Saurabh Bakolia</p><br>
+                <p><strong>Description:</strong> A fully functional e-commerce website leveraging the MERN stack
+                    (MongoDB, ExpressJS, ReactJS, NodeJS) with additional support for JSON-based APIs.</p>
+                <br> <i class="fa fa-github" style="font-size:20px; color: #f15a26"> </i>
+                <a href="https://github.com/saurabhbakolia/SCROLLME--ECOMMERCE-WEBSITE" target="_blank"
+                    class="repo-link">
+                    Repository Link</a>
+            </div>
         </div>
 
         <!-- Card 6 -->
@@ -104,11 +160,56 @@
                 <span>HTML</span>
                 <span>JavaScript</span>
             </div>
-            <a href="https://github.com/AlgoGenesis/C" target="_blank">
-                <button class="details-btn">Project Details</button>
-            </a>
+            <button class="details-btn" onclick="openModal('algogenesis-modal')">Project Details</button>
+        </div>
+        <div id="algogenesis-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeModal('algogenesis-modal')">&times;</span>
+                <h2>AlgoGenesis: C Algorithms</h2>
+                <p><strong>By:</strong> Pankaj Kumar Bind</p><br>
+                <p><strong>Description:</strong> A collection of C-based algorithms with a focus on visualizing
+                    algorithm design, enhanced by HTML, CSS, and JavaScript integration for interactive learning.</p>
+                <br> <i class="fa fa-github" style="font-size:20px; color: #f15a26"> </i>
+                <a href="https://github.com/AlgoGenesis/C" target="_blank" class="repo-link">
+                    Repository Link</a>
+            </div>
         </div>
     </div>
+
+
+    <script>
+        // Function to open the modal
+        function openModal(modalId) {
+            document.getElementById(modalId).style.display = "block";
+        }
+
+        // Function to close the modal
+        function closeModal(modalId) {
+            document.getElementById(modalId).style.display = "none";
+        }
+
+        // Close the modal when clicking outside of it
+        window.onclick = function (event) {
+            const modals = document.querySelectorAll('.modal');
+            modals.forEach(modal => {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            });
+        };
+
+        // Dynamically attach modal open functionality to all buttons
+        document.addEventListener("DOMContentLoaded", () => {
+            const detailsButtons = document.querySelectorAll(".details-btn");
+            detailsButtons.forEach(button => {
+                button.addEventListener("click", (event) => {
+                    const modalId = event.target.getAttribute("data-modal-id");
+                    if (modalId) openModal(modalId);
+                });
+            });
+        });
+    </script>
+
 </body>
 
 </html>
