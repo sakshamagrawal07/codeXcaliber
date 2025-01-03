@@ -128,33 +128,36 @@ const Carousel = () => {
     }, [updateCarouselNext, updateCarouselPrev]);
 
   return (
-    <div className='relative overflow-hidden w-full xl:h-[600px] lg:h-[500px] md:h-[400px] sm:h-[300px] xs:h-[250px] h-[200px] mx-auto rounded-xl'>
-        <div ref={ref} className="w-full h-full flex transform ease-in-out duration-500"> 
-        {
-                array.map((item,index) => {
-                return (
-                    <div key={index} className='flex-[0_0_100%]'>
-                        <img src={item} className="w-full h-full object-cover flex-1 bg-blue-500 select-none" onDragStart={(e) => e.preventDefault()}/>
-                    </div>
-                )
-                })
-        }
-        </div>
-        {
-            !isMobile && (
-                <>
-                    <div 
-                     className='absolute top-1/2 z-10 lg:w-10 lg:h-10 md:w-8 md:h-8 w-6 h-6 text-xs sm:text-base flex justify-center items-center bg-black/40 p-3 cursor-pointer rounded-lg' 
-                     onClick={updateCarouselPrev}
-                    >{"<"}</div>
-                    <div 
-                     className='absolute top-1/2 right-0 z-10 lg:w-10 lg:h-10 md:w-8 md:h-8 w-6 h-6 text-xs sm:text-base flex justify-center items-center bg-black/40 p-3 cursor-pointer rounded-lg' 
-                     onClick={updateCarouselNext}
-                    >{">"}</div>
-                </>
-            )
-        }
-    </div>
+    <>
+      <h1 className="text-4xl my-5 font-bold">Sponsors</h1>
+      <div className='relative overflow-hidden w-full xl:h-[600px] lg:h-[500px] md:h-[400px] sm:h-[300px] xs:h-[250px] h-[200px] mx-auto rounded-xl'>
+          <div ref={ref} className="w-full h-full flex transform ease-in-out duration-500"> 
+          {
+                  array.map((item,index) => {
+                  return (
+                      <div key={index} className='flex-[0_0_100%]'>
+                          <img src={item} className="w-full h-full object-cover flex-1 bg-blue-500 select-none" onDragStart={(e) => e.preventDefault()}/>
+                      </div>
+                  )
+                  })
+          }
+          </div>
+          {
+              !isMobile && (
+                  <>
+                      <div 
+                       className='absolute top-1/2 z-10 lg:w-10 lg:h-10 md:w-8 md:h-8 w-6 h-6 text-xs sm:text-base flex justify-center items-center bg-black/40 p-3 cursor-pointer rounded-lg' 
+                       onClick={updateCarouselPrev}
+                       >{"<"}</div>
+                      <div 
+                       className='absolute top-1/2 right-0 z-10 lg:w-10 lg:h-10 md:w-8 md:h-8 w-6 h-6 text-xs sm:text-base flex justify-center items-center bg-black/40 p-3 cursor-pointer rounded-lg' 
+                       onClick={updateCarouselNext}
+                      >{">"}</div>
+                  </>
+              )
+          }
+      </div>
+    </>
   )
 }
 
