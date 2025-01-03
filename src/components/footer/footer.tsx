@@ -1,4 +1,5 @@
 import React from "react"
+import { FaDiscord } from "react-icons/fa"
 import { HiOutlineArrowRight } from "react-icons/hi"
 import { RiInstagramFill } from "react-icons/ri"
 import { TiSocialLinkedin } from "react-icons/ti"
@@ -27,13 +28,19 @@ const Footer = () => {
                             href="https://www.instagram.com/gdg_iiitn/"
                             target="_blank"
                         >
-                            <RiInstagramFill className="mr-3" />
+                            <RiInstagramFill />
                         </a>
                         <a
                             href="https://www.linkedin.com/company/gdsc-iiitn/posts/?feedView=all"
                             target="_blank"
                         >
                             <TiSocialLinkedin />
+                        </a>
+                        <a
+                            // href="https://www.linkedin.com/company/gdsc-iiitn/posts/?feedView=all"
+                            target="_blank"
+                        >
+                            <FaDiscord />
                         </a>
                     </div>
                 </div>
