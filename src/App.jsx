@@ -7,6 +7,7 @@ import Navbar from "./components/navbar/navbar";
 import Carousel from "./components/Carousel/Carousel";
 import Projects from './components/projects/projects';
 import AboutUs from './components/aboutus/aboutus';
+import CarouselReplacement from './components/Carousel/CarouselReplacement';
 
 
 
@@ -19,7 +20,8 @@ export default function App() {
       <Timeline/>
 
       <div className='p-12'>
-        <Carousel/>
+        {/* <Carousel/> */}
+        <CarouselReplacement/>
       </div>
     
 
