@@ -52,10 +52,10 @@ export function TabContent({
                             className="faq-question"
                         >
                             <div className="flex-col gap-2 md:p-0 p-2">
-                                <div className=" font-bold">
+                                <p className="orbitron">
                                     {question.text}
                                     {question.isNew && <span className="new">NEW</span>}
-                                </div>
+                                </p>
                                 {/* Mobile preview directly below the question */}
                                 {isMobileView && activePreview === index.toString() && (
                                     <div className="mobile-preview">

@@ -30,7 +30,7 @@ const Navbar = () => {
       }}
     >
       <motion.div
-        className="h-[50px] w-[30rem] rounded-[50px] flex items-center justify-between bg-[#1a1a1a] p-5"
+        className="h-[50px] w-[30rem] rounded-[50px] flex items-center justify-between bg-[#1a1a1a] p-5 "
         initial={{
           width: 0
         }}
@@ -48,6 +48,8 @@ const Navbar = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.25 }}
+            className="cursor-pointer"
+            href="#aboutUs"
           >
             About Us
           </motion.a>
@@ -55,15 +57,19 @@ const Navbar = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
+            className="cursor-pointer"
+            href="#projects"
           >
             Projects
           </motion.a>
         </div>
+        <a href="#home">
         <img
-          className="h-10 aspect-square"
+          className="h-10 aspect-square cursor-pointer"
           src="/images/x.png"
           alt="x"
         />
+        </a>
         <div
           className="bg-transparent flex items-center gap-10"
         >
@@ -71,6 +77,8 @@ const Navbar = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
+            className="cursor-pointer"
+            href="#sponsors"
           >
             Sponsors
           </motion.a>
@@ -78,6 +86,8 @@ const Navbar = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.25 }}
+            className="cursor-pointer"
+            href="#faqs"
           >
             FAQs
           </motion.a>

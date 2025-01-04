@@ -3,6 +3,7 @@ import RegisterButton from "../registerButton/registerButton";
 const Hero = () => {
   return (
     <div
+    id="home"
       className="max-w-[100vw] h-screen flex-col xs:flex items-center justify-center overflow-y-hidden relative"
     >
       <div

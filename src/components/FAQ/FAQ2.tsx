@@ -8,13 +8,10 @@ export default function FAQSection() {
   const [activePreview, setActivePreview] = useState<string | null>(null);
   const [isMobileView, setIsMobileView] = useState(false);
 
-  // Update mobile view state based on window width
   useEffect(() => {
     const handleResize = () => {
       setIsMobileView(window.innerWidth < 768);
     };
-
-    // Initialize state and add resize listener
     handleResize();
     window.addEventListener('resize', handleResize);
 
@@ -36,7 +33,7 @@ export default function FAQSection() {
   };
 
   return (
-    <div className="faq-container">
+    <div className="faq-container" id='faqs'>
       <header className="faq-header">
         <h1>All that... and more.</h1>
         <p>Here's the answer to every question you have in mind!</p>
