@@ -11,7 +11,7 @@ const Hero = () => {
             <img
                 fetchpriority="high"
                 className="h-[40rem] xs:h-[20rem] sm:h-[30rem] md:h[35rem] lg:h-[40rem] xl:h-[60rem] animate-levitate absolute mx-auto left-0 right-0 top-32 xs:top-80 sm:top-52 lg:top-40 xl:top-12 -z-10"
-                src="/images/hero-phone.png"
+                src="/images/hero-phone.webp"
                 alt="phone"
             />
             <div className="w-[100vw] h-screen absolute bg-gradient-to-b from-transparent via-transparent to-black" />
