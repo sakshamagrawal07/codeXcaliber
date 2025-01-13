@@ -16,6 +16,10 @@
   src: url("/fonts/Vipnagorgialla.otf") format('opentype');
 }
 
+@font-face{
+  font-family: "Zorque";
+  src: url("/fonts/Zorque.otf") format("opentype");
+}
 
 .title-font {
   font-family: 'Vipnagorgialla';

@@ -24,9 +24,8 @@ const RegisterButton = () => {
                 height: '44px',
                 width: '312px'
             }}
-        
+        // style="height: 44px; width: 312px"
         >
-            Apply Now
         </div>
         // <motion.div
         //     className="absolute bottom-16 left-0 right-0 mx-auto flex justify-center iceland-font"

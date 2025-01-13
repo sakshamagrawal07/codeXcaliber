@@ -8,36 +8,27 @@ import Carousel from "./components/Carousel/Carousel";
 import Projects from './components/projects/projects';
 import AboutUs from './components/aboutus/aboutus';
 import CarouselReplacement from './components/Carousel/CarouselReplacement';
-import TeamPage from './components/team/TeamPage';
-import Developers from './components/team/Team';
-import { Route, Routes } from 'react-router-dom';
-import DeveloperPage from './pages/Team';
-import Home from './pages/Home';
+
+
 
 export default function App() {
   return (
+    <div className='w-screen'>
+      <Navbar/>
+      <Hero/>
+      <AboutUs/>
+      <Timeline/>
 
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/team" element={<DeveloperPage />} />
-    </Routes>
-    // <div className='w-screen'>
-    //   <Navbar/>
-    //   <Hero/>
-    //   <AboutUs/>
-    //   <Timeline/>
-
-    //   <div className='p-12'>
-    //     {/* <Carousel/> */}
-    //     <CarouselReplacement/>
-    //   </div>
+      <div className='p-12'>
+        {/* <Carousel/> */}
+        <CarouselReplacement/>
+      </div>
     
 
-    //   <Projects/>
-    //   <FAQSection/>
-    //   <Developers />
-    //   <Footer/>
-    // </div>
+      <Projects/>
+      <FAQSection/>
+      <Footer/>
+    </div>
 
   );
 }
