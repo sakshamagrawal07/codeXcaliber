@@ -25,7 +25,8 @@ export default {
         },
         animation: {
           levitate: 'levitate 4s infinite ease-in-out',
-          reveal: 'reveal 5s ease-in-out'
+          reveal: 'reveal 5s ease-in-out',
+          blink: 'blink 1s step-end infinite',
         },
         keyframes: {
           levitate: {
@@ -35,8 +36,13 @@ export default {
           reveal : {
             '0%': { opacity: '0' },
             '100%': { opacity: '1' }
-          }
+          },
+          blink: {
+            '0%, 100%': { opacity: '1' },
+            '50%': { opacity: '0' },
+          },
         },
+        
       
     },
   },
