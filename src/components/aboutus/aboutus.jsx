@@ -6,7 +6,7 @@ const AboutUs = () => {
             <h1 className="text-7xl">About Us</h1>
             <div className="w-full h-[90%] mt-5 grid justify-center items-center grid-rows-3 gap-y-2 text-md sm:text-3xl md:text-3xl lg:text-4xl">
                 <p className="">
-                    CodeXCaliber is a transformative 3-month-long open-source journey organized by GDG on Campus IIIT Nagpur (formerly GDSC IIIT Nagpur). This program serves as a
+                    CodeXCaliber is a transformative open-source journey organized by GDG on Campus IIIT Nagpur (formerly GDSC IIIT Nagpur). This program serves as a
                     comprehensive platform for students to hone their coding, presentation, and leadership skills.
                 </p>
                 <p>

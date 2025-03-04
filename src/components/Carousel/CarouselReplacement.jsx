@@ -40,7 +40,7 @@ const CarouselReplacement = () => {
             <div class="project-container">
                 {/* <!-- Card 1--> */}
                 <div class="project-card">
-                    <h2 className="justify-center flex text-center">IIIT Surat</h2>
+                    <h2 className="justify-center flex text-center">GDG IIIT Surat</h2>
                     <img src="images/community_partner/IIIT Surat.jpg" alt="Interview Buddy" className="project-image" />
                 </div>
 
@@ -52,7 +52,7 @@ const CarouselReplacement = () => {
 
                 {/* <!-- Card 3 --> */}
                 <div class="project-card">
-                    <h2 className="justify-center flex text-center">Vishnu Institute of Technology, Bhimavaram</h2>
+                    <h2 className="justify-center flex text-center">GDG Vishnu Institute of Technology, Bhimavaram</h2>
                     <img src="images/community_partner/Vishnu Institute of Technology ,Bhimavaram.jpeg"
                         alt="Interview Buddy" className="project-image" />
                 </div>
@@ -65,7 +65,7 @@ const CarouselReplacement = () => {
 
                 {/* <!-- Card 5 --> */}
                 <div class="project-card">
-                    <h2 className="justify-center flex text-center">Priyadarshini College of Engineering</h2>
+                    <h2 className="justify-center flex text-center">GDG Priyadarshini College of Engineering</h2>
                     <div className="h-full items-center flex">
 
                     <img src="images/community_partner/centered.png" alt="Interview Buddy" className="project-image" />
