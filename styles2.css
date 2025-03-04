@@ -81,6 +81,18 @@ body {
     font-weight: bolder;
 }
 
+
+
+.project-card img {
+    width: 80%;
+
+    height: 80%;
+    /* border-radius: 30px; */
+    object-fit: contain;
+    display: block;
+    margin: auto;
+}
+
 .tags {
     display: flex;
     flex-wrap: wrap;
