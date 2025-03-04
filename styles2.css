@@ -1,5 +1,5 @@
 /* General Styles */
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,7 +11,7 @@ body {
     color: #fff;
     line-height: 1.6;
     margin: 0;
-}
+} */
 
 .faq-header {
     text-align: center;
@@ -69,7 +69,7 @@ body {
     /* color: #F2AD12; */
     color: #f15a26;
     margin-bottom: 10px;
-    text-align: left;
+    /* text-align: center; */
     font-weight: bolder;
 }
 
@@ -211,12 +211,11 @@ strong {
     background: #000;
     margin: 0;
     padding: 20px;
-    animation: fadeIn 3s infinite alternate;
 }
 
 @keyframes fadeIn {
     0% {
-        opacity: 0.3;
+        opacity: 1;
     }
 
     100% {

@@ -142,7 +142,7 @@ body {
 
 @keyframes fadeIn {
     from {
-        opacity: 0;
+        opacity: 1;
     }
 
     to {

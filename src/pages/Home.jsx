@@ -19,7 +19,7 @@ export default function Home() {
       <AboutUs/>
       <Timeline/>
 
-      <div className='p-12'>
+      <div className='p-12 h-auto'>
         {/* <Carousel/> */}
         <CarouselReplacement/>
       </div>
