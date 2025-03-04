@@ -37,7 +37,7 @@ const Footer = () => {
                             <TiSocialLinkedin />
                         </a>
                         <a
-                            // href="https://www.linkedin.com/company/gdsc-iiitn/posts/?feedView=all"
+                            href="https://discord.gg/jURNbzZSTX"
                             target="_blank"
                         >
                             <FaDiscord />
