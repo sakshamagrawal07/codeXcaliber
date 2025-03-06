@@ -20,14 +20,14 @@ const CarouselReplacement = () => {
                 {/* <!-- Card 2--> */}
                 <div className="project-card">
                     <h2 className="justify-center flex text-center">Balsamiq</h2>
-                    <img src="images/sponsors/balsamiq.jpg" alt="Interview Buddy" className="project-image" />
+                    <img src="images/sponsors/balsamiq.jpg" alt="Balsamiq" className="project-image" />
                 </div>
 
                 {/* <!-- Card 3 --> */}
-                <div className="project-card">
+                {/* <div className="project-card">
                     <h2 className="justify-center flex text-center">Github</h2>
                     <img src="images/sponsors/github_icon_2.png" alt="Interview Buddy" className="project-image" />
-                </div>
+                </div> */}
             </div>
             <div className="announcement">
                 <p>More Coming Soon</p>
@@ -41,26 +41,26 @@ const CarouselReplacement = () => {
                 {/* <!-- Card 1--> */}
                 <div class="project-card">
                     <h2 className="justify-center flex text-center">GDG IIIT Surat</h2>
-                    <img src="images/community_partner/IIIT Surat.jpg" alt="Interview Buddy" className="project-image" />
+                    <img src="images/community_partner/IIIT Surat.jpg" alt="GDG IIIT Surat" className="project-image" />
                 </div>
 
                 {/* <!-- Card 2 --> */}
                 <div class="project-card">
                     <h2 className="justify-center flex text-center">IIITDM Kurnool</h2>
-                    <img src="images/community_partner/IIITDM Kurnool.jpg" alt="Interview Buddy" className="project-image" />
+                    <img src="images/community_partner/IIITDM Kurnool.jpg" alt="IIITDM Kurnool" className="project-image" />
                 </div>
 
                 {/* <!-- Card 3 --> */}
                 <div class="project-card">
                     <h2 className="justify-center flex text-center">GDG Vishnu Institute of Technology, Bhimavaram</h2>
                     <img src="images/community_partner/Vishnu Institute of Technology ,Bhimavaram.jpeg"
-                        alt="Interview Buddy" className="project-image" />
+                        alt="GDG Vishnu Institute of Technology, Bhimavaram" className="project-image" />
                 </div>
 
                 {/* <!-- Card 4 --> */}
                 <div class="project-card">
                     <h2 className="justify-center flex text-center">BITS-Pilani</h2>
-                    <img src="images/community_partner/BITS-Pilani-Logo.svg" alt="Interview Buddy" className="project-image" />
+                    <img src="images/community_partner/BITS-Pilani-Logo.svg" alt="BITS-Pilani" className="project-image" />
                 </div>
 
                 {/* <!-- Card 5 --> */}
@@ -68,7 +68,7 @@ const CarouselReplacement = () => {
                     <h2 className="justify-center flex text-center">GDG Priyadarshini College of Engineering</h2>
                     <div className="h-full items-center flex">
 
-                    <img src="images/community_partner/centered.png" alt="Interview Buddy" className="project-image" />
+                    <img src="images/community_partner/centered.png" alt="GDG Priyadarshini College of Engineering" className="project-image" />
                     </div>
                 </div>
             </div>
