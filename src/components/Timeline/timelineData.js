@@ -15,7 +15,7 @@ export const events = [
       id: "02",
       date: "17.03.2025",
       title: "PRODUCT IDEAS",
-      description: "A week-long workshop focused on helping students write strong, well-structured project proposals. Get guidance from mentors and learn the best practices for proposing your project ideas."
+      description: "Submit a PPT (any template) covering Title, Problem, Solution, Features, Tech Stack, Market Scope, Roadmap, and Challenges, along with a 2-5 min video explaining the problem, solution, and key features."
     },
     // {
     //   id: "04",
@@ -27,7 +27,7 @@ export const events = [
       id: "03",
       date: "27.03.2025",
       title: "CODINGPHASE",
-      description: "This is where the real fun begins! The core phase of CodeXCaliber, where students begin implementing their proposed projects. During this period, students will collaborate closely with mentors and contribute code to open-source repositories."
+      description: "This is where the real fun begins! The core phase of CodeXCaliber, where students begin implementing accepted proposed projects. During this period, students will collaborate closely with mentors and contribute code to open-source repositories."
     },
     {
       id: "04",
