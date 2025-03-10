@@ -71,6 +71,13 @@ const CarouselReplacement = () => {
                     <img src="images/community_partner/centered.png" alt="GDG Priyadarshini College of Engineering" className="project-image" />
                     </div>
                 </div>
+                <div class="project-card">
+                    <h2 className="justify-center flex text-center">GDG DAIICT</h2>
+                    <div className="h-full items-center flex">
+
+                    <img src="images/community_partner/DAIICT.jpg" alt="GDG DAIICT" className="project-image" />
+                    </div>
+                </div>
             </div>
         </div>
     );
